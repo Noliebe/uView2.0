@@ -305,6 +305,14 @@ export default [{
         // 	title: 'Dropdown 下拉菜单',
         // 	title_en: 'Dropdown',
         // },
+        // #ifndef MP-ALIPAY
+        {
+        	path: '/pages/componentsB/dropdownFilter/dropdownFilter',
+        	icon: 'dropdown',
+        	title: 'DropdownFilter 下拉菜单 (仅wechart)',
+        	title_en: 'DropdownFilter',
+        },
+        // #endif
         {
             path: '/pages/componentsB/tabbar/tabbar',
             icon: 'tabbar',

@@ -11,36 +11,42 @@
 [![release](https://img.shields.io/github/v/release/umicro/uView2.0?style=flat-square)](https://gitee.com/umicro/uView2.0/releases)
 [![license](https://img.shields.io/github/license/umicro/uView2.0?style=flat-square)](https://en.wikipedia.org/wiki/MIT_License)
 
+
+
+## TODO
+
+<u--input>的具名插槽 prefix 在 .vue 文件中 不管用, u-input 的插槽生效
+
+```js
+
+<u--input v-model="formData.name" placeholder="请输入您的姓名">
+	<block slot="prefix">
+		<image
+			:src="$urlImg('ico_pop_mendian_1.png')"
+			class="modal-add-popup-close-btn block m-auto"
+			mode="widthFix"
+		/>
+	</block>
+</u--input>
+```
+
 ## 说明
 
-uView UI，是[uni-app](https://uniapp.dcloud.io/)全面兼容nvue的uni-app生态框架，全面的组件和便捷的工具会让您信手拈来，如鱼得水
+uView UI，是[uni-app](https://uniapp.dcloud.io/)全面兼容 nvue 的 uni-app 生态框架，全面的组件和便捷的工具会让您信手拈来，如鱼得水
 
 ## [官方文档：https://uviewui.com](https://uviewui.com)
 
-### 官方1群：1042987248（已满）
-### 官方2群：249718512（已满）
-### 官方3群：1129077272（已满）
-### 官方4群：1084514613（已满）
-### 官方5群：863820668（已满）
-### 官方6群：745721078（已满）
-### 官方7群：627867855（已满）
-### 官方8群：496409492（已满）
-### 官方9群：828504448（已满）
-### 官方10群：232041042（已满）
-### 官方11群：364463526（已满）
-### 官方12群：229707069（已满）
-### [点击加13群交流反馈：879811455](https://jq.qq.com/?_wv=1027&k=vz4By4k5)
+### [点击加 13 群交流反馈：879811455](https://jq.qq.com/?_wv=1027&k=vz4By4k5)
 
 ## 特性
 
-- 全面兼容nvue，原生渲染，高性能
-- 兼容安卓，iOS，微信小程序，H5，QQ小程序，百度小程序，支付宝小程序，头条小程序
-- 60+精选组件，功能丰富，多端兼容，让您快速集成，开箱即用
-- 众多贴心的JS利器，让您飞镖在手，召之即来，百步穿杨
-- 众多的常用页面和布局，让您专注逻辑，事半功倍
-- 详尽的文档支持，现代化的演示效果
-- 按需引入，精简打包体积
-
+-   全面兼容 nvue，原生渲染，高性能
+-   兼容安卓，iOS，微信小程序，H5，QQ 小程序，百度小程序，支付宝小程序，头条小程序
+-   60+精选组件，功能丰富，多端兼容，让您快速集成，开箱即用
+-   众多贴心的 JS 利器，让您飞镖在手，召之即来，百步穿杨
+-   众多的常用页面和布局，让您专注逻辑，事半功倍
+-   详尽的文档支持，现代化的演示效果
+-   按需引入，精简打包体积
 
 ## 预览
 
@@ -49,26 +55,25 @@ uView UI，是[uni-app](https://uniapp.dcloud.io/)全面兼容nvue的uni-app生�
 <br>
 <img src="https://uviewui.com/common/weixin_mini_qrcode.png" width="220" height="220" >
 
-
 ## 链接
 
-- [官方文档](https://www.uviewui.com/)
-- [更新日志](https://www.uviewui.com/components/changelog.html)
-- [升级指南](https://www.uviewui.com/components/changeGuide.html)
-- [关于我们](https://www.uviewui.com/cooperation/about.html)
+-   [官方文档](https://www.uviewui.com/)
+-   [更新日志](https://www.uviewui.com/components/changelog.html)
+-   [升级指南](https://www.uviewui.com/components/changeGuide.html)
+-   [关于我们](https://www.uviewui.com/cooperation/about.html)
 
 ## 交流反馈
 
-欢迎加入我们的QQ群交流反馈：[点此跳转](https://www.uviewui.com/components/addQQGroup.html)
+欢迎加入我们的 QQ 群交流反馈：[点此跳转](https://www.uviewui.com/components/addQQGroup.html)
 
-## 关于PR
+## 关于 PR
 
-> 我们非常乐意接受各位的优质PR，但在此之前我希望您了解uView2.0是一个需要兼容多个平台的（小程序、h5、ios app、android app）包括nvue页面、vue页面。
-> 所以希望在您修复bug并提交之前尽可能的去这些平台测试一下兼容性。最好能携带测试截图以方便审核。非常感谢！
+> 我们非常乐意接受各位的优质 PR，但在此之前我希望您了解 uView2.0 是一个需要兼容多个平台的（小程序、h5、ios app、android app）包括 nvue 页面、vue 页面。
+> 所以希望在您修复 bug 并提交之前尽可能的去这些平台测试一下兼容性。最好能携带测试截图以方便审核。非常感谢！
 
 ## 安装
 
-#### **uni-app插件市场链接** —— [https://ext.dcloud.net.cn/plugin?id=1593](https://ext.dcloud.net.cn/plugin?id=1593)
+#### **uni-app 插件市场链接** —— [https://ext.dcloud.net.cn/plugin?id=1593](https://ext.dcloud.net.cn/plugin?id=1593)
 
 请通过[官网安装文档](https://www.uviewui.com/components/install.html)了解更详细的内容
 
@@ -76,23 +81,83 @@ uView UI，是[uni-app](https://uniapp.dcloud.io/)全面兼容nvue的uni-app生�
 
 请通过[快速上手](https://uviewui.com/components/quickstart.html)了解更详细的内容
 
-## 使用方法
-配置easycom规则后，自动按需引入，无需`import`组件，直接引用即可。
+## 版权信息
 
-```html
-<template>
-	<u-button text="按钮"></u-button>
-</template>
+uView 遵循[MIT](https://en.wikipedia.org/wiki/MIT_License)开源协议，意味着您无需支付任何费用，也无需授权，即可将 uView 应用到您的产品中。
+
+## 使用
+
+1.安装 uview。
+
+```shell
+npm install uview-ui -s            //安装最新版
+npm install uview-ui@2.0.31 -s     //指定版本安装
+
+//结合使用sass
+npm install sass -s
 ```
 
+2.根据官方文档的提示，在 main.js 文件在 import Vue 之后加入如下代码，记住一点要在 import Vue 之后添加：
 
-## 捐赠uView的研发
+```js
+import Vue from "vue";
+//在Vue后面添加以下代码
+import uView from "uview-ui";
+Vue.use(uView);
 
-uView文档内容和框架源码全部开源免费，如果您认为uView帮到了您的开发工作，您可以捐赠uView的研发工作，捐赠无门槛，哪怕是一杯可乐也好(相信这比打赏主播更有意义)。
+//uView 2.0版本修改uView内置配置方案
+uni.$u.setConfig({
+	// 修改$u.config对象的属性
+	config: {
+		// 修改默认单位为rpx，相当于执行 uni.$u.config.unit = 'rpx'
+		unit: "rpx",
+	},
+	// 修改$u.props对象的属性
+	props: {
+		// 修改radio组件的size参数的默认值，相当于执行 uni.$u.props.radio.size = 30
+		radio: {
+			size: 15,
+		},
+		// 其他组件属性配置
+		// ......
+	},
+});
+```
 
-<img src="https://uviewui.com/common/wechat.png" width="220" >
-<img style="margin-left: 100px;" src="https://uviewui.com/common/alipay.png" width="220" >
+3.在根目录下找到 uni.scss 文件加入如下的代码
 
-## 版权信息
-uView遵循[MIT](https://en.wikipedia.org/wiki/MIT_License)开源协议，意味着您无需支付任何费用，也无需授权，即可将uView应用到您的产品中。
+```scss
+@import "uview-ui/theme.scss";
+```
 
+4.在根目录下找到 App.vue 文件下 style 添加以下代码，引入 uView scss 的基础样式
+
+```scss
+@import "uview-ui/index.scss";
+```
+
+5. 在根目录下找到 pages.json 文件在第一层添加以下代码：
+
+```json
+// 指引 uni_modules 以外的目录可以使用 easycom
+"easycom": {
+     "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+},
+```
+
+6.在页面上使用 uView 组件, 看是否正常
+
+```vue
+<template>
+	<view class="content">
+		<u-search
+			v-model="searchKey"
+			height="66"
+			placeholder="请输入搜索关键词"
+			searchIconSize="36"
+			bgColor="#f4f6f9"
+		>
+		</u-search>
+	</view>
+</template>
+```

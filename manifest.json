@@ -97,7 +97,10 @@
     },
     "quickapp" : {},
     "mp-weixin" : {
-        "appid" : "wxc256e348c4032ebd",
+        // uView2.0 的appid
+        // "appid" : "wxc256e348c4032ebd",
+        // noliebe 
+        "appid" : "wx1847f3cc1405856c",
         "setting" : {
             "urlCheck" : false,
             "es6" : false,

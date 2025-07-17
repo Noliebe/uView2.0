@@ -75,6 +75,10 @@ export default {
 			type: Boolean,
 			default: uni.$u.props.navbar.autoBack
 		},
+		hiddenLeftBlock:{
+			type: Boolean,
+			default: uni.$u.props.navbar.hiddenLeftBlock
+		},
 		// 标题的样式，对象或字符串
 		titleStyle: {
 			type: [String, Object],

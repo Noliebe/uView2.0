@@ -157,10 +157,17 @@
 		]
 	}, {
 		"root": "pages/componentsB",
+		
 		"pages": [{
 			"path": "dropdown/dropdown",
 			"style": {
 				"navigationBarTitleText": "下拉菜单"
+			}
+		}, {
+			"path": "dropdownFilter/dropdownFilter",
+			"style": {
+				"navigationBarTitleText": "下拉菜单",
+				"navigationStyle": "custom"
 			}
 		}, {
 			"path": "actionSheet/actionSheet",

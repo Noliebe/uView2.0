@@ -11,6 +11,7 @@ function range(min = 0, max = 0, value = 0) {
 }
 
 /**
+ * TODO upx2px 已经废弃
  * @description 用于获取用户传递值的px值  如果用户传递了"xxpx"或者"xxrpx"，取出其数值部分，如果是"xxxrpx"还需要用过uni.upx2px进行转换
  * @param {number|string} value 用户传递值的px值
  * @param {boolean} unit
@@ -39,6 +40,7 @@ function sleep(value = 30) {
 		}, value)
 	})
 }
+
 /**
  * @description 运行期判断平台
  * @returns {string} 返回所在平台(小写)
@@ -47,6 +49,7 @@ function sleep(value = 30) {
 function os() {
 	return uni.getSystemInfoSync().platform.toLowerCase()
 }
+
 /**
  * @description 获取系统信息同步接口
  * @link 获取系统信息同步接口 https://uniapp.dcloud.io/api/system/info?id=getsysteminfosync
