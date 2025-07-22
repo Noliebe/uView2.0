@@ -44,6 +44,11 @@ export default {
         loadingColor: {
             type: String,
             default: uni.$u.props.loadingPage.loadingColor
-        }
+        },
+        customStyle: {
+            // type: [Object, String],
+            type: Object,
+            default: uni.$u.props.loadingPage.customStyle
+        },
     }
 }

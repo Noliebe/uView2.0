@@ -9,6 +9,7 @@
             bottom: 0,
             backgroundColor: bgColor,
             display: 'flex',
+            ...customStyle
         }"
     >
         <view class="u-loading-page">
